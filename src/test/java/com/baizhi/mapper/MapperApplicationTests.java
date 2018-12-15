@@ -36,7 +36,7 @@ public class MapperApplicationTests {
        // t.setPassword("123456");
         List<User> select = userMapper.select(t);//根据指定条件查询
         for (User user : select) {
-            System.out.println(user);
+            System.out.println(user+"11111111111111111111111111111111");
         }
     }
     @Test
